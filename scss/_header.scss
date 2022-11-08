@@ -1,0 +1,66 @@
+.header {
+    background: var(--very-pale-cyan) url(../images/bg-hero-mobile.svg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 2.3em;
+    transition: 500ms ease-in;
+
+    @media screen and (min-width: 48em) {
+        text-align: left;
+    }
+
+    @media screen and (min-width: 65em) {
+        background: var(--very-pale-cyan) url(../images/bg-hero-desktop.svg) no-repeat;
+        background-size: cover;
+        padding: 2.3rem 5rem 4rem;
+    }
+}
+
+.logo-header {
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+    width: 6.5rem;
+    transition: 500ms ease-in;
+
+    @media screen and (min-width: 65em) {
+        width: 12rem;
+        top: 3.5rem;
+        left: 5rem;
+    }
+}
+
+.header-split {
+    margin-top: 5.8rem;
+
+    @media screen and (min-width: 48em) {
+        margin-top: 7.7rem;
+    }
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.35rem;
+    transition: 500ms ease-in-out;
+
+    @media screen and (min-width: 48em) {
+        margin-bottom: 1.5rem;
+        text-align: left;
+    }
+
+    @media screen and (min-width: 65em) {
+        font-size: 2.5rem;
+    }
+}
+
+.description {
+    font-size: var(--fs-body);
+    margin-bottom: 2.1rem;
+    transition: 500ms ease-in-out;
+
+    @media screen and (min-width: 65em) {
+        font-size: 1.15rem;
+    }
+}

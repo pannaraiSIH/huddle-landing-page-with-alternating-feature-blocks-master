@@ -1,0 +1,18 @@
+h1, 
+h2 {
+    font-family: var(--ff-heading);
+}
+
+p {
+    font-family: var(--ff-body);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: var(--ff-body);
+    color: white;
+}

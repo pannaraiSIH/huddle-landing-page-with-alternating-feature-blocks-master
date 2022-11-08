@@ -1,0 +1,126 @@
+.header-split {
+    display: flex;
+    flex-direction: column;
+    gap: 3.3rem;
+
+    @media screen and (min-width: 48em) {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.header-intro {
+    @media screen and (min-width: 48em) {
+        width: 43%;
+    }
+}
+
+.header-img-box {
+    @media screen and (min-width: 48em) {
+        width: 57%;
+    }
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 2.5rem;
+}
+
+.sect {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    @media screen and (min-width: 48em) {
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 6rem;
+    }
+}
+
+.sect-2 {
+    @media screen and (min-width: 48em) {
+        flex-direction: row;
+    }
+}
+
+.sect-4 {
+    display: inline-block;
+}
+
+.sect-img-box,
+.sect-detail {
+    @media screen and (min-width: 48em) {
+        flex: 1;
+    }
+}
+
+.footer-split {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+
+    @media screen and (min-width: 48em) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 6rem;
+
+        > * {
+            flex: 1;
+        }
+    }
+}
+
+.info {
+    > * + * {
+        margin-top: 1.5rem;
+    }
+
+    @media screen and (min-width: 48em) {
+        width: 25rem;
+    }
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.info-item-1-align {
+    gap: 2rem;
+    align-items: flex-start;
+
+    img {
+        margin-top: .5rem;
+    }
+}
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+    transition: 500ms ease-in-out;
+    gap: 1rem;
+
+    @media screen and (min-width: 48em) {
+        flex-direction: row;
+        gap: 3.5rem;
+    }
+
+    @media screen and (min-width: 65em) {
+       justify-content: flex-end;
+       gap: 6rem;
+    }
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: .8rem;
+
+    @media screen and (min-width: 48em) {
+        flex-wrap: wrap;
+    }
+}
