@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Huddle landing page](./screenshot.png)
+![Huddle landing page](/Screenshot.png)
 
 ### Built with
 
