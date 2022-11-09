@@ -250,6 +250,7 @@ a {
 
 .btn-primary {
   background-color: white;
+  color: black;
   padding: 0.4em 2.15em;
   font-size: 0.65rem;
   position: absolute;
