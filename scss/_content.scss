@@ -59,14 +59,12 @@
 
     @media screen and (min-width: 65em) {
         padding: 3.5rem 1rem 3.2rem;
-        gap: 2rem;
         bottom: -95px;
     }
      
     p {
         font-family: var(--ff-heading);
         font-size: 1.1rem;
-        margin-bottom: 1.5rem;
         transition: 500ms ease-in-out;
 
         @media screen and (min-width: 65em) {
