@@ -36,7 +36,7 @@
     @media screen and (min-width: 48em) {
         flex-direction: row-reverse;
         align-items: center;
-        gap: 6rem;
+        gap: 3rem;
     }
 }
 
@@ -65,7 +65,7 @@
     @media screen and (min-width: 48em) {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 6rem;
+        gap: 5rem;
 
         > * {
             flex: 1;
@@ -74,6 +74,8 @@
 }
 
 .info {
+    flex: 1.5;
+
     > * + * {
         margin-top: 1.5rem;
     }
@@ -99,28 +101,15 @@
 }
 
 .about-list {
-    display: flex;
-    flex-direction: column;
-    transition: 500ms ease-in-out;
-    gap: 1rem;
-
-    @media screen and (min-width: 48em) {
-        flex-direction: row;
-        gap: 3.5rem;
-    }
+    flex: 1.5;
 
     @media screen and (min-width: 65em) {
-       justify-content: flex-end;
-       gap: 6rem;
+        columns: 2;
     }
 }
 
 .social-media {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: .8rem;
-
-    @media screen and (min-width: 48em) {
-        flex-wrap: wrap;
-    }
 }

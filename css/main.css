@@ -146,7 +146,7 @@ a {
   .sect {
     flex-direction: row-reverse;
     align-items: center;
-    gap: 6rem;
+    gap: 3rem;
   }
 }
 
@@ -176,13 +176,16 @@ a {
   .footer-split {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 6rem;
+    gap: 5rem;
   }
   .footer-split > * {
     flex: 1;
   }
 }
 
+.info {
+  flex: 1.5;
+}
 .info > * + * {
   margin-top: 1.5rem;
 }
@@ -207,33 +210,19 @@ a {
 }
 
 .about-list {
-  display: flex;
-  flex-direction: column;
-  transition: 500ms ease-in-out;
-  gap: 1rem;
-}
-@media screen and (min-width: 48em) {
-  .about-list {
-    flex-direction: row;
-    gap: 3.5rem;
-  }
+  flex: 1.5;
 }
 @media screen and (min-width: 65em) {
   .about-list {
-    justify-content: flex-end;
-    gap: 6rem;
+    -moz-columns: 2;
+         columns: 2;
   }
 }
 
 .social-media {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 0.8rem;
-}
-@media screen and (min-width: 48em) {
-  .social-media {
-    flex-wrap: wrap;
-  }
 }
 
 .btn {
@@ -547,10 +536,14 @@ a {
   text-align: center;
   margin-top: 1rem;
 }
+@media screen and (min-width: 48em) {
+  .copyright {
+    text-align: right;
+  }
+}
 @media screen and (min-width: 65em) {
   .copyright {
     font-size: 0.75rem;
-    text-align: right;
     margin-top: 2.4rem;
   }
 }/*# sourceMappingURL=main.css.map */

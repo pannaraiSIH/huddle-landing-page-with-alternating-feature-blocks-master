@@ -81,9 +81,12 @@
     text-align: center;
     margin-top: 1rem;
 
+    @media screen and (min-width: 48em) {
+        text-align: right;
+    }
+
     @media screen and (min-width: 65em) {
         font-size: .75rem;
-        text-align: right;
         margin-top: 2.4rem;
     }
 }
